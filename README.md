@@ -1,16 +1,58 @@
-# islami
+# 📿 Muslim App
 
-A new Flutter project.
+A simple and elegant Flutter application that showcases a collection of Islamic Hadiths. Designed with clean UI and structured code, the app allows users to browse and read different Hadiths with ease.
 
-## Getting Started
+## 🧠 Features
 
-This project is a starting point for a Flutter application.
+* 🕌 Display a list of Hadiths
+* 📖 View full Hadith content on tap
+* 🧩 Structured with custom models and navigation
+* 🧼 Clean and maintainable Flutter code
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠 Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Flutter** & **Dart**
+* **Stateful Widgets**
+* **Navigator** for screen transitions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
+```
+/lib
+  ├── models/
+  │     └── hadeth.dart
+  ├── screens/
+  │     ├── hadeth_screen.dart
+  │     └── hadeth_details.dart
+  └── main.dart
+```
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/ahmedsaidalelwany/Muslim.git
+   ```
+2. Navigate to the project folder:
+
+   ```bash
+   cd Muslim
+   ```
+3. Run the app:
+
+   ```bash
+   flutter pub get
+   flutter run
+   ```
+
+## 🤝 Contributions
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+
+## 📧 Contact
+
+Developed by **Ahmed Said Al-Alwany**
+Feel free to reach out for suggestions or collaborations.
+
+---
